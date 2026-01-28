@@ -1,6 +1,6 @@
-import { network } from "hardhat";
+import { network } from 'hardhat';
 
-const ADDR = "0xae4f7f083c94edac1c1af83b0f63d365ca6856fe";
+const ADDR = '0xae4f7f083c94edac1c1af83b0f63d365ca6856fe';
 
 async function main() {
   const { viem } = await network.connect();
@@ -8,11 +8,11 @@ async function main() {
 
   const owner = await publicClient.readContract({
     address: ADDR,
-    abi: (await viem.getContractAt("TreasuryVault", ADDR)).abi,
-    functionName: "owner",
+    abi: (await viem.getContractAt('TreasuryVault', ADDR)).abi,
+    functionName: 'owner',
   });
 
-  console.log("owner:", owner);
+  console.log('owner:', owner);
 }
 
 main().catch((e) => {

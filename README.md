@@ -26,6 +26,7 @@ This repository is intentionally **small but real** — it focuses on correctnes
   https://sepolia.etherscan.io/address/0xae4f7f083c94edac1c1af83b0f63d365ca6856fe
 
 You can inspect:
+
 - Contract bytecode
 - Transactions
 - ETH balance
@@ -63,3 +64,4 @@ This mirrors real treasury / custody / infra patterns rather than toy examples.
 ```bash
 npm install
 npx hardhat test
+```
