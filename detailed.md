@@ -3,6 +3,7 @@
 > Goal: Write, test, deploy, and verify a Solidity smart contract on Ethereum Sepolia using modern tooling and DevOps-style practices.
 
 This guide assumes:
+
 - macOS
 - Comfortable with terminal & Git
 - New or semi-new to Web3 is fine
@@ -321,3 +322,4 @@ Final result checklist
 One-line summary
 
 This project demonstrates writing, testing, deploying, and verifying a real Ethereum smart contract using production-grade tooling and DevOps principles.
+```
