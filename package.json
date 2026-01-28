@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-      "build": "hardhat compile",
-      "test": "hardhat test"
+    "build": "hardhat compile",
+    "test": "hardhat test",
+    "format": "prettier . --write",
+    "format:check": "prettier . --check"
   },
   "keywords": [],
   "author": "",
@@ -22,6 +24,7 @@
     "forge-std": "github:foundry-rs/forge-std#v1.9.4",
     "hardhat": "^3.1.5",
     "mocha": "^11.7.5",
+    "prettier": "^3.8.1",
     "typescript": "~5.8.0",
     "viem": "^2.45.0"
   }
